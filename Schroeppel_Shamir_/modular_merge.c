@@ -387,13 +387,6 @@ ListeSol Modular_merge(word* T1S, short nbTableauS1, word* T2S, short nbTableauS
         tailleS1 = 0;
         // Merge de T1S et T2S
         S1 = join(S1,T1S,1UL<<nbTableauS1,T2S,1UL<<nbTableauS2,RES1,M,om,&tailleS1,&nbReallocS1);
-        gmp_printf("_______________________\n");
-        for (int i = 0; i < tailleS1; i++)
-        {
-            gmp_printf("%Zd\n",S1[i].word);
-        }
-        gmp_printf("_______________________\n");
-        
         if (S1 == NULL){
             printf("\nErreur");
             return NULL;

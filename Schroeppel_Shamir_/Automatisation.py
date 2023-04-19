@@ -4,7 +4,7 @@ import subprocess
 
 #1 = nb et 2 : le pas
 if len(sys.argv) < 3:
-    print("2 paramètres sont attendus :\n 1- Un entier correspondant à la taille <=> nombre d'élément pouvant contribuer à la sommation <=> dimension\n 2- Le numéro de la génération (correspondant au nom de fichier)")
+    print("2 paramètres sont attendus :\n 1- Dimension de départ\n 2- Le pas")
 else:
     nb = int(sys.argv[1])
     pas = int(sys.argv[2])

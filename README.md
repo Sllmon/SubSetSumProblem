@@ -16,4 +16,4 @@ Pour lancer l'algorithme de Schroeppel-Shamir il faut se rendre dans le dossier 
 Par exemple : **./start 2 32 1** -> On va ici lancer l'algorithme de Schroeppel-Shamir à partir du fichier *generation32.txt* dans lequel on va regarder si une ou plusieurs sommations donne 2.
 
 
-Nous travaillons ici avec des éléments dans le vecteur = 2^n. Ces grands entiers correspondent aux éléments pouvant être sommé, dans le but de tester l'implémentation de Schroeppel-Shamir ainsi que sa véracité.
+Nous travaillons ici avec des éléments dans le vecteur qui ont pour valeur maximum 2^n. Ces grands entiers correspondent aux éléments pouvant être sommé, dans le but de tester l'implémentation de Schroeppel-Shamir ainsi que sa véracité.
